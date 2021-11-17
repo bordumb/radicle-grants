@@ -1,5 +1,6 @@
-
-> The official structured discussion for the Radicle Grants Program proposal. With this post, the proposal has entered the second phase of the governance process. Please review the drafted proposal and contribute feedback by **Wednesday, October 20th**
+> This is the official draft and [Snapshot poll](NEW-LINK-GOES-HERE) for the Radicle Grants Program proposal. With this post, the proposal has entered the third phase of the governance process.
+>
+>Please formally review the proposal and [vote in the Snapshot poll](NEW-LINK-GOES-HERE) by 🚨**HH:mm CET - DAY, DATE** 🚨
 
 # **Functional Description** 
 
@@ -9,18 +10,14 @@ In other words, the aim is to directly support open source initiatives that help
 
 ## **Budget & Timeline**
 
-- Amount: $1,000,000 (USDC)
-- Length: 6 months for 1st wave of grants
+**Amount:** $1,000,000 (USDC)
+**Length:** 6 months
 
-Roughly 75% of the budget will be allocated to fund grant projects. 
-
-The remaining budget will be used to compensate committee members.
-
-Grant funding and compensation will start out simple, controlled by RGP's multi-sig. As Radicle progressively decentralizes, the compensation budget may fall under a different group entirely and/or utilize Radicle Funding/Drips. Any new arrangements will be assessed at the end of the 6 months.
+> *Grant funding and compensation for committee members will be controlled by the RGP's multi-sig. As Radicle decentralizes, the budget may fall under a different group entirely and/or utilize Radicle Funding/Drips. Any new arrangements will be assessed at the end of the 6 months. See the Compensation section below for more details.*
 
 ## **🐕🦴 Implementation**
 
-**A fundamental goal with the RGP is to dogfood Radicle in order to build a web3-wide model for sustainable software development.** This comes down to 3 main uses of Radicle:
+**A fundamental goal for the RGP is to dogfood Radicle in order to build a web3-wide model for sustainable software development.** This comes down to 3 main uses of Radicle:
 
 The RGP Committee will be its own [Org](https://radicle.community/t/feature-update-orgs/2132). 
 Committee members will be added as [members of the Org](https://docs.radicle.xyz/docs/connecting-to-ethereum/adding-members). 
@@ -40,31 +37,40 @@ Below is a high-level diagram of the proposed framework.
 
 ## **Team & Responsibilities**
 
-### Radical Grants Program Org (Multi-Sig)
+### RGP Committee
 
-This group will act as signers of the RGP Org's [multi-sig](https://docs.radicle.xyz/docs/connecting-to-ethereum/creating-an-org#creating-an-org).
+The group outlined below will act as the RGP committee and will be the signers of the RGP Org's [multi-sig](https://docs.radicle.xyz/docs/connecting-to-ethereum/creating-an-org#creating-an-org). These committee members will be responsible for approving grants and distributing funding to grant projects.
 
-The multi-sig votes here will act as both approval of grants as well as the funding of grant projects.
+The Radicle Grants Committee is made up of core Radicle team members, Radicle community members, and outside individuals who have related domain expertise within the Web3 ecosystem.
 
-The Radicle Grants Committee is made up of core Radicle team members, Radicle community members, and outside folks who have some related domain expertise within the web3 ecosystem.
+Committed members include:
 
-Members include:
-
-- Abbey (Radicle)
-- Bordumb (Community)
-- Derek (Community)
-- Larry (Community)
-- Nas (Radicle)
-- Shelby (Radicle)
-
-Below are ideas for prospective committee members who have not yet committed:
-- Core Dev Team (1-2 members)
-- We will also be reaching out to several other platforms, such as The Graph, Gitcoin, and a few others to find members from the greater web3 ecosystem.
+- [Abbey Titcomb](https://twitter.com/abbey_titcomb) (Core Team)
+- [Bordumb](https://twitter.com/bordumbb) (Radicle Community)
+- [Kei Kreutler](https://twitter.com/keikreutler) (Ecosystem)
+- [Nader Dabit](https://twitter.com/dabit3) (Ecosystem)
+- [Nassar Hayat](https://twitter.com/nassarhayat) (Core Team)
+- Reverie (comprised of [Derek Hsue](https://twitter.com/derek_hsue) and [Larry Sukernik](https://twitter.com/lsukernik) from the Radicle Community)
 
 ### Compensation
-As noted above, roughly 25% of the budget will be used for compensation. This will be shared amongst the RGP Committee Members and Governance Operations Members. They will be paid for their time for any work including but not limited to recruiting, assessing, and managing of work across grants and governance.
 
-Compensation will be paid out from the RGP Grant Multi-Sig.
+Committee members will all be paid at a rate of $150/hour of work.
+
+The rationale behind an hourly rate is that it creates the greatest opportunity for learning
+* We will learn how much each committee member actually works
+* We will learn whether we need less or more committee members
+
+In either case above, an hourly rate is likely the best mechanism to not overpay, but also not underpay committee members
+
+The rationale behind the rate itself is that we want to make sure we can recruit Committee members who can contribute well behind simple operational tasks. For example, the types of people who can bring a high degree of domain expertise around governance, documentation/education, and recruiting for & management of software development.
+
+This will be paid out in RAD, with the conversion being made based on the average spot price in the last 7 days of each month. The payment will be made at the end of each month. For example, if the average spot price were $15:1RAD at the end of the month and a committee member reported 10 hours of work for the month, they would receive 100RAD for the month (10 hours x 10 RAD, at $15:1RAD).
+
+Committee members must self-report their hours worked by uploading a log to RGP's repository, either on GitHub or Radicle Upstream. Committee members shall not be paid until they have logged their hours.
+
+The committee members themselves will use the multi-sig vote around the end of each month to approve compensation.
+
+As noted above, the goal is **not** to keep compensation decisions contained within the RGP committee. We will move compensation decisions to some sort of external committee (e.g. Compensation Committee) as soon as possible.
 
 ### Core Development Team
 
@@ -72,7 +78,7 @@ This section is independent of whether a Core Team member is on the Committee.
 
 Any technical work (i.e. code) will be posted to the respective Project/repo. For example, if a grant project touches Radicle Upstream, the work will need to be posted to either the [Radicle](radicle://link/v0/rad:git:hnrk8ueib11sen1g9n1xbt71qdns9n4gipw1o) or [GitHub](https://github.com/radicle-dev/radicle-upstream) repo.
 
-It will be up any [maintainer(s)]([maintainers](https://docs.radicle.xyz/docs/connecting-to-ethereum/adding-members)) of the respective repo to review, give feedback, and ultimately approve the work.
+It will be up to any [maintainer(s)]([maintainers](https://docs.radicle.xyz/docs/connecting-to-ethereum/adding-members)) of the respective repo to review, give feedback, and ultimately approve the work.
 
 Once the work is completed and approved, the grantee will can share the Project ID + anchored commit hash as proof of 
 work to the Grant Committee for final payment.
@@ -87,7 +93,7 @@ https://radicle.community/t/looking-for-a-radicle-grants-program-lead/2489
 
 After applying, I was chosen to lead the program by the RGWP. I've already introduced myself a bit in [the application here](https://radicle.community/t/looking-for-a-radicle-grants-program-lead/2489). 
 
-The Grants Lead will be responsible for the following:
+I will be responsible for the following:
 
 - Organizing and disseminating project ideas: this will include RFPs from core Radicle members or open applications from the community (e.g. product requests from partners or straight from individual users)
 - Building channels for recruiting applicants: this might include things like putting forth RFPs to hackathons or posting bounties on [GitCoin](https://gitcoin.co/)
@@ -96,7 +102,7 @@ The Grants Lead will be responsible for the following:
 - Planning milestones/check-ins: milestones expected to be written by the grant candidates in their application. The Grant Lead will be responsible to have regular check-ins, depending on the tier of the project (see tiers below)
 - Multi-Sig voting: the Grant Lead will communicate to relevant Committee Members when a vote for finalized work is in order.
 
-The core goal of the Grants Lead is to scale the progressive decentralization of contributions to the Radicle ecosystem.
+The core goal of the Grants Lead is to build the Radicle ecosystem.
 
 ## **Program Structure & Process**
 
@@ -105,7 +111,7 @@ Radicle.
 
 ### Project Ideas
 
-RFPs will be the main source of project ideas. RFPs can come from core Radicle members or can be written by users and other community members (e.g. a feature request that another platform's team is keen to have). RFPs from community members must follow the same format as the format established by Radicle. They cannot be free-form. And the more technical details, the better. 
+RFPs will be the main source of project ideas. RFPs can come from core Radicle members or can be written by users and other community members (e.g. a feature request that another platform's team is keen to have). RFPs from community members must follow the same format as the format established by Radicle. They cannot be free-form. This is to ensure some level of equality when assessing multiple applicants. And the more technical details, the better. This is to ensure we have enough detail to assess an application with as little back-and-forth as possible.
 
 We expect that in Wave 1 of the Radicle Grants Program, most RFPs will come from the core Radicle team. Over time, the line between core member based RFPs and community RFPs should blur. This will be a key part of Radicle's progressive decentralization. Canonical RFPs will be organized within RGP's Org in its own Project. Copies will be made available elsewhere, such as mirroring on GitHub, blog posts, etc. Budget Estimates will be made at this point.
 
@@ -113,7 +119,7 @@ We expect that in Wave 1 of the Radicle Grants Program, most RFPs will come from
 
 The first grants wave will last **6 months**. 
 
-Applications will be on a rolling basis. We will accept applications any day of the week. Every 2 weeks there will be an assessment by Committee Members. On the first Monday, the Grant Lead will start looking at all applications (GitHub, Radicle, or AirTable). By the 2nd Monday, the Grant Lead will share this with Committee Members. By the 2nd Friday, there should be voting or a call for further assessment (interviews). Applicants should wait from 2-4 weeks to finish the entire process. See Tiers below for more.
+Applications will be reviewed on a rolling basis. Every 2 weeks applications will be assessed by Committee Members. 
 
 Multiple teams may apply for the same grant/RFP. This has several implications. It means applicants are in competition. But Committee Members may also (a) recommend to combine teams or (b) split the RFP into sub-tasks to be divided amongst each grantee.
 
@@ -133,11 +139,11 @@ There will be 3 tiers to help organize and prioritize projects:
     - Budget:  > $50,000
     - Time commitment from Committee members: 1-2 interviews, voting pre/post, assessment of work
 
-> **Note:** Details above subject to change depending on final budget from Treasury and the number of Committee members we have.
+> **Note:** Details above are subject to change based on our experience providing grants. 
 
 ### Application Process
 
-Grantees may choose from any of the application processes below. Both application processes follow the same form, so there will be no difference in assessment.
+Grantees may choose from any of the application processes below. Both application processes follow the same form.
 
 **Non-Technical Applications**
 
@@ -172,9 +178,9 @@ RGP-ORG
 
 ### Milestones
 
-Milestones will either be explicitly written in the RFP and if not, should be addressed by the Grant Applicant in their application.
+Milestones will either be explicitly written in the RFP and if not, should be addressed by the Grant Applicant in the application.
 
-The purpose of milestones is to break down projects into functional components. The main goal is to mitigate the risk of projects not being 100% complete. If 1 usable component is done and 2 are not, we can restart from square 2, rather than square 1. Second, the simple exercise of creating milestone components organizes the work for the grantee into manageable chunks. Lastly, milestones also help measure work completion, but this is not the primary goal of them.
+The purpose of milestones is to break down projects into functional components. In short, the main goal is to mitigate the risk of projects not being 100% complete. If 1 usable component is done and 2 are not, we can restart from square 2, rather than square 1. Second, the simple exercise of creating milestone components organizes the work for the grantee into manageable chunks. Lastly, milestones also help us measure the completion status of the project in a simple way. 
 
 ### Grant Approval
 
@@ -251,8 +257,8 @@ Technical approval will include an assessment by relevant Core Dev Team member(s
 
 ### Payment
 
-**Schedule**: when a grantees application is approved 40% of the grant will be dispursed to help start the work. Once 
-the work is complete (i.e. gone through Approvals as noted above), the remaining 60% will be dispursed.
+**Schedule**: when a grantees application is approved 40% of the grant will be disbursed upfront to provide immediate funding to grantees. Once 
+the work is complete (i.e. gone through Approvals as noted above), the remaining 60% will be disbursed.
 
 **Process for Final Payment**: 
 * Technical work: grantees must provide the Project ID + anchored commit showing the work has been approved by a Core Dev Team maintainer. RGP Committee will then disburse funds via the multi-sig.
@@ -294,11 +300,11 @@ As grants are approved on a rolling basis,
 
 The purpose of this entire exercise comes down to three main goals.
 
-First and foremost is **progressive decentralization**. Radicle is meant to enable the decentralization of governance and contributions to FOSS. So Radicle itself should be self-governed, self-funded, and self-built for and by the Radicle community. This also aligns with the third high-level objective of the Radicle Foundation, 
+First and foremost is **progressive decentralization**. Radicle is meant to enable the decentralization of governance and contributions to free and open-source software. As a result, Radicle itself should be self-governed, self-funded, and self-built for and by the Radicle community. This also aligns with the third high-level objective of the Radicle Foundation, 
 
 Second is that the **team growth** of contributors will mean **product growth**. There is a natural limit to what the Core Dev Team can develop, so new contributors will mean more attention to more features, an improved experience for users, and more innovation. The Radicle Grants Program won't just be a space for peripheral tasks. It will also be a part of Radicle's own recruiting pipeline to bring on new core members. 
 
-Lastly, the RGP will become a **model for all DAOs**. It will be a model for building self-sustaining, open source projects, DAO-funded project development, as well as DAO-to-DAO (D2D) "business". The RGP will become a hub for sharing best practices around organizing and funding projects, as well as how best to use Radicle to drive governance and development for FOSS. It will do this in a more codified, automated, and in an on-chain way that only Radicle can do.
+Lastly, if we’re successful, the RGP will become a **model for all DAOs**. It will be a model for building self-sustaining, open source projects, DAO-funded project development, as well as DAO-to-DAO (D2D) "business". The RGP will become a hub for sharing best practices around organizing and funding projects, as well as how best to use Radicle to drive governance and development for FOSS. It will do this in a more codified, automated, and in an on-chain way that only Radicle can do.
 
 The RGP is also an initiative that contributes to two of the Radicle Foundation's high level objectives for the project (see full post below):
 
@@ -381,27 +387,4 @@ Once work is finally approved, the RGP Committee will use voting via multi-sig t
 - Team Growth: will become a pipeline for recruiting new core members
 - DAO model: will provide a model for others DAOs to be self-sustaining, both from a process standpoint as well as technological
 
-# **Open questions** (what else needs to be figured out?)
-
-- Remuneration
-    - Can we pay grantees through Radicle Funding?
-        - If so, when will that be available?
-    - In the interim, or in cases where grantees want some other payment:
-        - How shall we do this?
-    - Ange
-        - Legal implications?
-    - **Remunerations**: related to above point on implementation/Funding. If Funding is not feasible, I'm guessing Ange or someone from Radicle Foundation should get involved to help with this portion? Just want to flag this as a really important point.
-        - Comment: *The only "paperwork" is an automated KYC process via Persona. We don't require grantees to sign any paperwork, mostly because the grants are tiny and we don't want to bog anyone down with a compliance process. That means grantees are need to figure out their own tax*
-- Funding
-    - When is funding MVP scheduled? (we'd like to use it!)
-    - Bilateral NFTs
-        - Currently, NFT/Community Tokens are unilateral — i.e. the Supporter Org (Org A) gets and NFT from the Org (Org B) they are supporting.
-            - Org B →  Org A
-        - Especially within the context of Grants, a bilateral dispersal might make sense
-            - Org B ↔ Org A
-            - This might be useful if a large project wants to provide access to services to all of their grantees.
-            - Such an NFT would also act as a badge of honor (e.g. "Our Org has been sponsored by AAVE, The Graph, Radicle, etc.")
-        - Thoughts?
-- Legal
-    - Software licensing: Proper licensing for grantees to adopt to preserve open source usage of any/all work ([see Web3 Foundation's example](https://github.com/w3f/Grants-Program#project-ideas))
-    - Terms & Conditions for successful grantees
+>Please formally review the proposal and [vote in the Snapshot poll](https://snapshot.org/#/gov.radicle.eth/proposal/0x4c289dd7619570a08dffcbb987b66d29dbbb747cf5c478ebc773f0304f15f773) by 🚨**17:00 CET - Friday, November 5th** 🚨
