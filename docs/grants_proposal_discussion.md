@@ -387,4 +387,4 @@ Once work is finally approved, the RGP Committee will use voting via multi-sig t
 - Team Growth: will become a pipeline for recruiting new core members
 - DAO model: will provide a model for others DAOs to be self-sustaining, both from a process standpoint as well as technological
 
->Please formally review the proposal and [vote in the Snapshot poll](https://snapshot.org/#/gov.radicle.eth/proposal/0x4c289dd7619570a08dffcbb987b66d29dbbb747cf5c478ebc773f0304f15f773) by 🚨**17:00 CET - Friday, November 5th** 🚨
+>Please formally review the proposal and [vote in the Snapshot poll](NEW-LINK-GOES-HERE) by 🚨**HH:mm CET - DAY, DATE** 🚨
