@@ -54,7 +54,7 @@ Committed members include:
 
 ### Compensation
 
-Committee members will all be paid at a rate of $150/hour of work.
+All committee members, including the Grant Lead, will all be paid at a rate of $150/hour of work.
 
 The rationale behind an hourly rate is that it creates the greatest opportunity for learning
 * We will learn how much each committee member actually works
