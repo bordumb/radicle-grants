@@ -1,6 +1,6 @@
-> This is the official draft and [Snapshot poll](NEW-LINK-GOES-HERE) for the Radicle Grants Program proposal. With this post, the proposal has entered the third phase of the governance process.
+> This is the official draft and [Snapshot poll](https://snapshot.org/#/gov.radicle.eth/proposal/0xe9158c0e656918f207f76af0b05feefce2cf07c02e582944825373eebd4ddaff) for the Radicle Grants Program proposal. With this post, the proposal has entered the third phase of the governance process.
 >
->Please formally review the proposal and [vote in the Snapshot poll](NEW-LINK-GOES-HERE) by 🚨**HH:mm CET - DAY, DATE** 🚨
+>Please formally review the proposal and [vote in the Snapshot poll](https://snapshot.org/#/gov.radicle.eth/proposal/0xe9158c0e656918f207f76af0b05feefce2cf07c02e582944825373eebd4ddaff) by 🚨**17:00 CET - Thursday, November 25** 🚨
 
 # **Functional Description** 
 
@@ -387,4 +387,4 @@ Once work is finally approved, the RGP Committee will use voting via multi-sig t
 - Team Growth: will become a pipeline for recruiting new core members
 - DAO model: will provide a model for others DAOs to be self-sustaining, both from a process standpoint as well as technological
 
->Please formally review the proposal and [vote in the Snapshot poll](NEW-LINK-GOES-HERE) by 🚨**HH:mm CET - DAY, DATE** 🚨
+>Please formally review the proposal and [vote in the Snapshot poll](https://snapshot.org/#/gov.radicle.eth/proposal/0xe9158c0e656918f207f76af0b05feefce2cf07c02e582944825373eebd4ddaff) by 🚨**HH:mm CET - Thursday, November 25** 🚨
