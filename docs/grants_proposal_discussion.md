@@ -1,6 +1,10 @@
-> This is the official draft and [Snapshot poll](https://snapshot.org/#/gov.radicle.eth/proposal/0xe9158c0e656918f207f76af0b05feefce2cf07c02e582944825373eebd4ddaff) for the Radicle Grants Program proposal. With this post, the proposal has entered the third phase of the governance process.
->
->Please formally review the proposal and [vote in the Snapshot poll](https://snapshot.org/#/gov.radicle.eth/proposal/0xe9158c0e656918f207f76af0b05feefce2cf07c02e582944825373eebd4ddaff) by 🚨**17:00 CET - Thursday, November 25** 🚨
+> This is the official draft and [Snapshot poll](https://snapshot.org/#/gov.radicle.eth/proposal/0xe9158c0e656918f207f76af0b05feefce2cf07c02e582944825373eebd4ddaff) for the Radicle Grants Program proposal. Please formally review the proposal and [vote in the Snapshot poll](https://snapshot.org/#/gov.radicle.eth/proposal/0xe9158c0e656918f207f76af0b05feefce2cf07c02e582944825373eebd4ddaff) by 🚨**17:00 CET - Thursday, November 25** 🚨
+
+> 💡This is the [second attempt](https://radicle.community/t/formal-review-radicle-grants-program-v1/2548/25) at passing this proposal. Please refer to the discussion in the [first Formal Review](https://radicle.community/t/formal-review-radicle-grants-program-v1/2548) before addressing concerns with this proposal. The Snapshot poll failed to meet participation requirements. You can view the results [here](https://snapshot.org/#/gov.radicle.eth/proposal/0x4c289dd7619570a08dffcbb987b66d29dbbb747cf5c478ebc773f0304f15f773).
+
+# Proposal Champions 🦾
+
+@bordumb | bordumb#6773
 
 # **Functional Description** 
 
@@ -13,25 +17,23 @@ In other words, the aim is to directly support open source initiatives that help
 **Amount:** $1,000,000 (USDC)
 **Length:** 6 months
 
-> *Grant funding and compensation for committee members will be controlled by the RGP's multi-sig. As Radicle decentralizes, the budget may fall under a different group entirely and/or utilize Radicle Funding/Drips. Any new arrangements will be assessed at the end of the 6 months. See the Compensation section below for more details.*
+> *Grant funding and compensation for committee members will be controlled by the RGP's multi-sig. As Radicle decentralizes, the budget may fall under a different group entirely and/or utilize Radicle Funding/Drips. Any new arrangements will be assessed at the end of the 6 months. See the **Compensation** section below for more details.*
 
 ## **🐕🦴 Implementation**
 
 **A fundamental goal for the RGP is to dogfood Radicle in order to build a web3-wide model for sustainable software development.** This comes down to 3 main uses of Radicle:
 
-The RGP Committee will be its own [Org](https://radicle.community/t/feature-update-orgs/2132). 
-Committee members will be added as [members of the Org](https://docs.radicle.xyz/docs/connecting-to-ethereum/adding-members). 
+The RGP Committee will be its own [Org](https://radicle.community/t/feature-update-orgs/2132). Committee members will be added as [members of the Org](https://docs.radicle.xyz/docs/connecting-to-ethereum/adding-members). 
 
 Grantees post work to relevant [Projects](https://docs.radicle.xyz/docs/using-radicle/creating-projects) within Radicle's core codebase for assessment by Core Dev maintainers. This workflow would be handled with [forks + patches](https://docs.radicle.xyz/docs/using-radicle/viewing-and-merging-patches) with the final anchored commits acting as the "proof of work" for grantees.
 
-Finally, once Radicle Funding is ready, RGP's Org could pay out to grantee Orgs for their work via 
-[Drips](https://radicle.community/t/feedback-on-nft-community-tokens/2455).
+Finally, once Radicle Funding is ready, RGP's Org could pay out to grantee Orgs for their work via [Drips](https://radicle.community/t/feedback-on-nft-community-tokens/2455).
 
 Below is a high-level diagram of the proposed framework.
 
 ![image|375x500](upload://yY5mQw6vjSd2LJi8czLshk1Gamh.png)
 
-> **Note** 
+> **Note:** 
 > 
 > In the short term, I see all of these pieces being substitute-able by any combination of off-chain tools (GitHub, AirTable, etc.) in order to lower friction for grantees. However, in the long term, the goal is to get as much of this activity on-chain. This is not just for the sake of having things on-chain. It is so that the entire process is natively transparent, highly automated, and so that any learnings and pain points from the on-chain process are fed back to the Radicle product itself. We want a virtuous cycle! 
 
@@ -45,8 +47,8 @@ The Radicle Grants Committee is made up of core Radicle team members, Radicle co
 
 Committed members include:
 
+-  **Grants Lead:** [Bordumb](https://twitter.com/bordumbb) (Radicle Community)
 - [Abbey Titcomb](https://twitter.com/abbey_titcomb) (Core Team)
-- [Bordumb](https://twitter.com/bordumbb) (Radicle Community)
 - [Kei Kreutler](https://twitter.com/keikreutler) (Ecosystem)
 - [Nader Dabit](https://twitter.com/dabit3) (Ecosystem)
 - [Nassar Hayat](https://twitter.com/nassarhayat) (Core Team)
@@ -54,17 +56,21 @@ Committed members include:
 
 ### Compensation
 
-All committee members, including the Grant Lead, will all be paid at a rate of $150/hour of work.
+**All committee members, including the Grant Lead, will all be paid at a rate of $150/hour of work.**
 
-The rationale behind an hourly rate is that it creates the greatest opportunity for learning
+The rationale behind an hourly rate is that it creates the greatest opportunity for learning: 
 * We will learn how much each committee member actually works
 * We will learn whether we need less or more committee members
 
-In either case above, an hourly rate is likely the best mechanism to not overpay, but also not underpay committee members
+In either case above, an hourly rate is likely the best mechanism to not overpay, but also not underpay committee members.
 
 The rationale behind the rate itself is that we want to make sure we can recruit Committee members who can contribute well behind simple operational tasks. For example, the types of people who can bring a high degree of domain expertise around governance, documentation/education, and recruiting for & management of software development.
 
-This will be paid out in RAD, with the conversion being made based on the average spot price in the last 7 days of each month. The payment will be made at the end of each month. For example, if the average spot price were $15:1RAD at the end of the month and a committee member reported 10 hours of work for the month, they would receive 100RAD for the month (10 hours x 10 RAD, at $15:1RAD).
+> Please refer to the discussion held in the [first Formal Review](https://radicle.community/t/formal-review-radicle-grants-program-v1/2548) of this proposal for more context on what led to this decision.
+
+This will be paid out in RAD, with the conversion being made based on the average spot price in the last 7 days of each month. The payment will be made at the end of each month. 
+
+> For example, if the average spot price were $15:1RAD at the end of the month and a committee member reported 10 hours of work for the month, they would receive 100RAD for the month (10 hours x 10 RAD, at $15:1RAD).
 
 Committee members must self-report their hours worked by uploading a log to RGP's repository, either on GitHub or Radicle Upstream. Committee members shall not be paid until they have logged their hours.
 
@@ -76,12 +82,9 @@ As noted above, the goal is **not** to keep compensation decisions contained wit
 
 This section is independent of whether a Core Team member is on the Committee.
 
-Any technical work (i.e. code) will be posted to the respective Project/repo. For example, if a grant project touches Radicle Upstream, the work will need to be posted to either the [Radicle](radicle://link/v0/rad:git:hnrk8ueib11sen1g9n1xbt71qdns9n4gipw1o) or [GitHub](https://github.com/radicle-dev/radicle-upstream) repo.
+Any technical work (i.e. code) will be posted to the respective Project/repo. For example, if a grant project touches Radicle Upstream, the work will need to be posted to either the [Radicle](radicle://link/v0/rad:git:hnrk8ueib11sen1g9n1xbt71qdns9n4gipw1o) or [GitHub](https://github.com/radicle-dev/radicle-upstream) repo. It will be up to any [maintainer(s)]([maintainers](https://docs.radicle.xyz/docs/connecting-to-ethereum/adding-members)) of the respective repo to review, give feedback, and ultimately approve the work.
 
-It will be up to any [maintainer(s)]([maintainers](https://docs.radicle.xyz/docs/connecting-to-ethereum/adding-members)) of the respective repo to review, give feedback, and ultimately approve the work.
-
-Once the work is completed and approved, the grantee will can share the Project ID + anchored commit hash as proof of 
-work to the Grant Committee for final payment.
+Once the work is completed and approved, the grantee will can share the Project ID + anchored commit hash as proof of work to the Grant Committee for final payment.
 
 The Core Development Team may at any time join the process to give feedback or guidance on any application. 
 
@@ -106,8 +109,7 @@ The core goal of the Grants Lead is to build the Radicle ecosystem.
 
 ## **Program Structure & Process**
 
-The entire structure and process is meant to evolve over time, with the long-term goal to push as much of the work onto 
-Radicle.
+The entire structure and process is meant to evolve over time, with the long-term goal to push as much of the work onto Radicle.
 
 ### Project Ideas
 
@@ -214,7 +216,7 @@ The maintainer(s) of the respective repo (likely Core Dev Team) will review, giv
 
 Grantees will use the Project ID and anchored commit as "proof of work" for final payment (see *Work Approval* and *Payment* below).
 
-> **Note**
+> **Note:**
 > 
 > In the short-term (i.e. this first grant wave) Grantees can expect some flexibility to this process. For example, we will allow you to post your final draft to GitHub for assessment. But we will still end up forking it ourselves to bring it into the Radicle Grant Program's own Org.
 
@@ -227,7 +229,7 @@ For example, if the work is to write a blog post, simply sharing a link to the c
 
 The details for posting non-technical work will be on a case-by-case basis.
 
-> **Note**
+> **Note:**
 > 
 > All work **must** adhere to the following criteria:
 > - All code produced during your grant must be **open-sourced** with proper licensing (Apache 2.0, but GPLv3, MIT or Unlicense).
@@ -314,7 +316,7 @@ The RGP is also an initiative that contributes to two of the Radicle Foundation'
 
 https://radicle.community/t/radicle-2021-strategy-objectives/2424#high-level-objectives-2
 
-# **Background** (what is the reasoning behind the proposal?)
+# **Background**
 
 Radicle is currently run by a couple dozen core members. 
 
@@ -326,7 +328,7 @@ The reasoning behind starting a grants program is to add structure, process, and
 
 https://radicle.community/t/temperature-check-radicle-grants-program/2461/8
 
-# **Reasoning & analysis** (what is the case for the proposal? what are the pros and cons?)
+# **Reasoning & analysis**
 
 Pros
 
@@ -341,7 +343,7 @@ Cons
 
 - There is a risk of projects not working out as expected
 
-# **Technical implementation** (who will be writing the code? what is the scope required?)
+# **Technical implementation**
 
 ### Treasury Funding
 
@@ -379,7 +381,7 @@ Once work is finally approved, the RGP Committee will use voting via multi-sig t
 > Radicle in the relevant Project as noted above. This is what RGP Committee members will use to determine their 
 > multi-sig vote for funding.
 
-# **Impact** (how does this contribute to the long-term resilience, sustainability and/or growth of the Radicle network?)
+# **Impact**
 
 (Note: largely covered above in the *Purpose* section, so summarized below)
 
@@ -387,4 +389,4 @@ Once work is finally approved, the RGP Committee will use voting via multi-sig t
 - Team Growth: will become a pipeline for recruiting new core members
 - DAO model: will provide a model for others DAOs to be self-sustaining, both from a process standpoint as well as technological
 
->Please formally review the proposal and [vote in the Snapshot poll](https://snapshot.org/#/gov.radicle.eth/proposal/0xe9158c0e656918f207f76af0b05feefce2cf07c02e582944825373eebd4ddaff) by 🚨**HH:mm CET - Thursday, November 25** 🚨
+>Please formally review the proposal and [vote in the Snapshot poll](https://snapshot.org/#/gov.radicle.eth/proposal/0xe9158c0e656918f207f76af0b05feefce2cf07c02e582944825373eebd4ddaff) by 🚨**17:00 CET - Thursday, November 25** 🚨
